@@ -4,3 +4,10 @@
 # Dezena: 3
 # Centena: 8
 # Milhar: 1
+
+numero = input('Digite um número entre 0 e 9999: ')
+print('Segue abaixo a ordem dos números: ')
+print(f'Milhar: {numero[0]}')
+print(f'Centena: {numero[1]}')
+print(f'Dezena: {numero[2]}')
+print(f'Unidade: {numero[3]}')
