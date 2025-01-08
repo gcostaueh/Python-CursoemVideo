@@ -5,9 +5,14 @@
 # Centena: 8
 # Milhar: 1
 
-numero = input('Digite um número entre 0 e 9999: ')
+numero = int(input('Digite um número entre 0 e 9999: '))
+n = str(numero)
+u = numero // 1 % 10
+d = numero // 10 % 10
+c = numero // 100 % 10
+m = numero // 1000 % 10
 print('Segue abaixo a ordem dos números: ')
-print(f'Milhar: {numero[0]}')
-print(f'Centena: {numero[1]}')
-print(f'Dezena: {numero[2]}')
-print(f'Unidade: {numero[3]}')
+print(f'Milhar: {m}')
+print(f'Centena: {c}')
+print(f'Dezena: {d}')
+print(f'Unidade: {u}')

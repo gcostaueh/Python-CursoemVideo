@@ -3,7 +3,7 @@
 # Primeiro: Ana
 # Último: Souza
 
-nome = input("Digite seu nome completo: ")
+nome = input("Digite seu nome completo: ").strip()
 nomes = nome.split()
 primeiro_nome = nomes[0]
 ultimo_nome = nomes[-1]
